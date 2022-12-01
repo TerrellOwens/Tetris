@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+
+body {
+  font-family: "Lora";
+  background-color: #34302f;
+}
+
+h2 {
+  color: white;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  background-image: url(https://i.pinimg.com/originals/0b/ee/eb/0beeeba8b75393d4b2973e8749b123b5.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid;
+  margin-left: 190px;
+  margin-top: 120px;
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+
+  /* background-color: green; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-image: url(https://i.pinimg.com/originals/29/e5/1f/29e51f914fbfaa17b2dafd64c0cb6e34.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  border: none;
+  padding: 14px 28px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#startBtn {
+  position: absolute;
+  left: 80%;
+  top: 37%;
+  width: 160px;
+}
+
+#restartBtn {
+  position: absolute;
+  width: 160px;
+  left: 80%;
+  top: 83%;
+}
+
+#pBtn {
+  position: absolute;
+  left: 80%;
+  top: 60%;
+  width: 160px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+}
+
+h3 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.blocks {
+  outline: auto;
+}
+
+.swal-modal {
+  background-image: url(https://assets.reedpopcdn.com/bloodborne-the-old-hunters-walkthrough-and-guide-3689-1446551433654.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/bloodborne-the-old-hunters-walkthrough-and-guide-3689-1446551433654.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swal-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 17px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: block;
+  margin: 50px;
+  text-align: center;
+  color: white;
+}
+
+.swal-title {
+  margin: 0px;
+  font-size: 18px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.21);
+  margin-bottom: 28px;
+  color: white;
+}
